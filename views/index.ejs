@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Css/style.css">
+
+    <script src="https://kit.fontawesome.com/b8b6313378.js" crossorigin="anonymous"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>AgroOrganicos Villa</title>
+</head>
+<body>
+    <header>
+        <div id="container-nav ">
+            <nav id="nav-bar" class="espacing">
+                <a href="" class="nav-logo nav-link ">AgroOrganicos Villa</a>
+                <button class="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a href="" class="nav-menu-link nav-link">Sobre Nosotros</a></li>
+                    <li class="nav-menu-item"><a href="" class="nav-menu-link nav-link">Productos</a></li>
+                    <li class="nav-menu-item"><a href="" class="nav-menu-link nav-link">Servicios</a></li>
+                    <li class="nav-menu-item"><a href="" class="nav-menu-link nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container-view-principal " style="background: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)),url('<%= img%>') no-repeat ;">
+            <div class="content-view-principal espacing">
+                <h1 class="big-title ">AgroOrganicos Villa</h1>
+                <h2 class="section-title ">Productos Organicos y Soluciones Amigables</h2>
+            </div>
+            
+        </div>
+    </header>
+
+    <main>
+        
+        <section id="informacion">
+            <h2 class="section-title">¿Quienes somos?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates tenetur possimus laudantium, 
+                nulla minus quam enim doloremque magni eius quo iusto laborum saepe ducimus quas dolor est perspiciatis deleniti! 
+                Facilis, sit! Fuga pariatur reprehenderit est ipsa eos illum unde ut reiciendis corporis, hic ipsam veritatis, tenetur quas fugit quae voluptatibus.
+            </p>
+        </section>
+
+        <section id="productos">
+            <div class="card-producto">
+                <div class="card-encabezado">
+                    <img class="card-image" src="" alt="">
+                </div>
+                <div class="card-cuerpo"></div>
+            </div>
+        </section>
+
+        <section id="servicios">
+            <div class="card-producto">
+                <div class="card-encabezado">
+                    <img class="card-image" src="" alt="">
+                </div>
+                <div class="card-cuerpo"></div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <div id="container-form">
+                <h3>¿Interesado en alguno de nuestros productos?</h3>
+                <form action="/" method="post">
+                    <div id="datos-basicos-cliente">
+                        <label for="nombre-cliente">* Nombre</label>
+                        <input type="text" id="nombre-cliente" name="nombrecliente">
+                        <label for="apellidos-cliente">* Apellidos</label>
+                        <input type="text" id="apellidos-cliente" name="apellidoscliente">
+                    </div>
+                    <div id="datos-adicionales-cliente">
+                        <label for="num-tel-cliente">* Numero Telefonico</label>
+                        <input type="tel" id="num-tel-cliente" name="numTelCliente">
+                        <label for="email-cliente">Corro Electronico</label>
+                        <input type="email" id="email-cliente" name="emailCliente">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="container-information">
+            <div class="container-footer-image">
+                <img class="image-footer" src="" alt="">
+                <h4>Todos los derechos reservados</h4>
+            </div>
+            <div class="container-info">
+                <h4>AgroOrganicos Villa</h4>
+                <h4>Santa Cruz de Juventio Rosas, Guanajuato</h4>
+            </div>
+            <div class="container-contact">
+
+                <h4>Diseñador y Desarrollador Aplicacion Web <a href="">Uriel Emiliano</a></h4>
+            </div>
+            
+            
+        </div>
+    </footer>
+
+    <script src="src/Animations.js"></script>
+</body>
+</html>
